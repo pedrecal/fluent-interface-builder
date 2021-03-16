@@ -119,7 +119,6 @@ describe("Test Suite for FluentSQL Builder", () => {
       .orderBy("name")
       .build();
 
-    console.log("result", result);
     expect(result).toStrictEqual(expected);
   });
 });
